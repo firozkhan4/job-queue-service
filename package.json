@@ -1,0 +1,33 @@
+{
+  "name": "jqs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "worker": "node worker.js"
+  },
+  "keywords": [],
+  "author": "FirozKhan4",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "bull": "^4.16.5",
+    "bullmq": "^5.70.1",
+    "express": "^5.2.1",
+    "ioredis": "^5.10.0",
+    "nodemailer": "^8.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/bull": "^3.15.9",
+    "@types/express": "^5.0.6",
+    "@types/ioredis": "^4.28.10",
+    "@types/node": "^25.3.3",
+    "@types/nodemailer": "^7.0.11",
+    "dotenv": "^17.3.1",
+    "nodemon": "^3.1.14"
+  }
+}
