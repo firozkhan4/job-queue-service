@@ -1,5 +1,3 @@
-
-```md
 # 🚀 Job Queue System with BullMQ + Redis
 
 A scalable **background job processing system** built using **Node.js, Express, BullMQ, and Redis** to efficiently handle asynchronous tasks such as email notifications, report generation, and other long-running operations.
@@ -256,8 +254,3 @@ MIT License.
 ## 👨‍💻 Author
 
 Firoz Khan
-
-```
-
-If you want, I can also give you a **🔥 “Senior Developer / Recruiter-Impress README (Top 1% GitHub Style)”** version with badges, screenshots section, architecture diagram image, and portfolio highlights. Just ask.
-```
