@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js & node worker.js",
     "dev": "nodemon index.js",
     "worker": "node worker.js"
   },
@@ -13,6 +13,7 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
+    "@bull-board/ui": "^6.20.3",
     "bull": "^4.16.5",
     "bullmq": "^5.70.1",
     "express": "^5.2.1",

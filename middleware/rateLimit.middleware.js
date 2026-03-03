@@ -1,10 +1,10 @@
 import "dotenv/config"
-import { connection } from "../config/redis"
+import { connection } from "../config/redis.js"
 
 export const rateLimit = async (req, res, next) => {
 
   try {
-    const MAX_RATELIMIT = Number(process.env.MAX_RATELIMIT) ?? 10
+    const MAX_RATELIMIT = Number(process.env.MAX_RATELIMIT) ?? 100
     const key = "rateLimit:jqs"
     const result = await connection.incr(key)
 
